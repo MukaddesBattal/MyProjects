@@ -1,0 +1,31 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+div{
+    border: 3px solid blue;
+    margin: 50px;
+    padding: 50px;
+    position: relative;
+    overflow-y: auto;
+
+
+}
+h1{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    position: relative;    
+}
+img{
+    float: left;
+    position: relative;
+    padding-right: 25px;
+    opacity: 0.50;  
+}
+p{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: justify;
+    /* padding-top: 10px; */
+}
+img:hover{
+    opacity: 1;
+}
