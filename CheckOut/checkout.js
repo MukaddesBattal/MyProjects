@@ -9,7 +9,7 @@ window.addEventListener("load", ()=>{
     calculateCartTotal()
 });
 
-//capturing
+// ! capturing
 let productsDiv = document.querySelector(".products");
 productsDiv.addEventListener("click", (e)=>{
     let quantityP = e.target.parentElement.parentElement.querySelector("#product-quantity");
@@ -32,7 +32,7 @@ productsDiv.addEventListener("click", (e)=>{
         // console.log("minusBtn clicked");
     }
 
-    //plus buttons
+    // ! plus buttons
     else if(e.target.className == "fas fa-plus" || e.target == quantityP.parentElement.lastElementChild){
         quantityP.innerText++;
          //calculate Product and Cart Total
@@ -41,7 +41,7 @@ productsDiv.addEventListener("click", (e)=>{
         // console.log("plusBtn clicked");
     }
 
-    //remove buttons
+    // ! remove buttons
     else if(e.target.className == "remove-product"){
         if (confirm("Product will be removed")) {
             quantityP.parentElement.parentElement.parentElement.remove();
@@ -53,7 +53,7 @@ productsDiv.addEventListener("click", (e)=>{
         // console.log("removeBtn clicked");
 
     }
-    //others
+    // ! others
     else{
         console.log("other elements clicked");
     }

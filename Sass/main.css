@@ -1,0 +1,18 @@
+@import "./scss/base/_reset.scss";
+@import "./scss/abstracks/_mixins.scss";
+@import "./scss/abstracks/_variables.scss";
+@import "./scss/components/_footer.scss";
+@import "./scss/components/_nav.scss";
+@import "./scss/components/_responsive.scss";
+@import "./scss/pages/_home.scss";
+@import "./scss/pages/_about.scss";
+@import "./scss/pages/_project.scss";
+@import "./scss/pages/_contact.scss";
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css')");
+
+
+
+
+
+
+/* No CSS *//*# sourceMappingURL=main.css.map */
